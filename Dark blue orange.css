@@ -1,0 +1,185 @@
+/* use this file to override default styles when forking this repository */
+
+/*
+  PAGE CONTENTS
+  Customize the page that the chat bubble lives on
+*/
+
+/* Overall chat widget styling */
+.voiceflow-chat {
+    background-color: #1C0D57; /* Deep blue */
+}
+
+/* Chat launcher (button to open the chat) */
+.vfrc-launcher {
+    background-color: #ED9209; /* Orange accent */
+    color: #FFFFFF;
+}
+
+/* Chat overlay */
+.vfrc-chat--overlay {
+    background-color: #1C0D57; /* Deep blue */
+}
+
+/* Chat prompt */
+.vfrc-prompt {
+    background-color: #ED9209; /* Orange accent */
+    color: #FFFFFF;
+}
+
+/*
+  CHAT WIDGET HEADER
+  Customize the chat header appearance
+*/
+
+/* Header */
+.vfrc-header {
+    background-color: #ED9209; /* Orange accent */
+    color: #FFFFFF;
+}
+
+/* Assistant information (avatar, title, description) */
+.vfrc-assistant-info {
+    background-color: #ED9209; /* Orange accent */
+    color: #FFFFFF;
+}
+
+/* Assistant title */
+.vfrc-assistant-info--title {
+    color: #FFFFFF; /* White text */
+}
+
+/* Assistant description */
+.vfrc-assistant-info--description {
+    color: #F5F5F5; /* Light gray */
+}
+
+/* Avatar */
+.vfrc-avatar {
+    border: 2px solid #FFFFFF; /* Add a white border for contrast */
+}
+
+/* Icons */
+.vfrc-icon {
+    color: #FFFFFF; /* White for icons */
+}
+
+/*
+  CHAT MESSAGE BODY
+  Customize the chat message area
+*/
+
+/* Chat body */
+.vfrc-chat {
+    background-color: #1C0D57; /* Deep blue */
+    color: #FFFFFF;
+}
+
+/* Dialog */
+.vfrc-chat--dialog {
+    background-color: #1C0D57; /* Deep blue */
+}
+
+/* Spacer */
+.vfrc-chat--spacer {
+    background-color: #1C0D57; /* Match dialog background */
+}
+
+/* Session time */
+.vfrc-chat--session-time {
+    color: #BBBBBB; /* Light gray */
+}
+
+/* Status */
+.vfrc-chat--status {
+    color: #FFFFFF; /* White */
+}
+
+/* Message */
+.vfrc-message {
+    background-color: #000000; /* Black background for messages */
+    color: #F5F5F5; /* Light gray text */
+    border-radius: 8px;
+    padding: 8px;
+    margin: 4px 0;
+}
+
+/* Timestamp */
+.vfrc-timestamp {
+    color: #BBBBBB; /* Light gray */
+}
+
+/*
+  ASSISTANT RESPONSES
+*/
+
+/* Response indicator */
+.vfrc-system-response--indicator {
+    background-color: #ED9209; /* Orange accent */
+}
+
+/* Assistant responses */
+.vfrc-system-response {
+    color: #F5F5F5; /* Light gray */
+    background-color: #1C0D57; /* Deep blue */
+}
+
+/* Assistant buttons */
+.vfrc-system-response .vfrc-button {
+    background-color: #ED9209; /* Orange accent */
+    color: #FFFFFF; /* White text */
+}
+
+/* Assistant lists */
+.vfrc-system-response--list {
+    background-color: #1C0D57; /* Deep blue */
+    color: #FFFFFF; /* White text */
+}
+
+/*
+  USER RESPONSES
+*/
+
+/* User responses */
+.vfrc-user-response {
+    background-color: #1C0D57; /* Deep blue */
+    color: #FFFFFF; /* White text */
+}
+
+/* User messages */
+.vfrc-user-response .vfrc-message {
+    background-color: #1C0D57; /* Deep blue */
+    color: #FFFFFF; /* White text */
+    border-radius: 8px;
+    padding: 8px;
+    margin: 4px 0;
+}
+
+/*
+  FOOTER
+  Customize the footer (input field and branding)
+*/
+
+/* Footer */
+.vf-footer {
+    background-color: #1C0D57; /* Deep blue */
+}
+
+/* Input field */
+.vfrc-input {
+    background-color: #330066; /* Dark purple */
+    color: #FFFFFF; /* White text */
+    border: 1px solid #ED9209; /* Orange border for contrast */
+    border-radius: 4px;
+}
+
+/* Chat input button */
+.vfrc-chat-input--button {
+    background-color: #ED9209; /* Orange accent */
+    color: #FFFFFF; /* White text */
+}
+
+/* Footer watermark */
+.vfrc-footer--watermark {
+    color: #ED9209; /* Orange text */
+}
