@@ -1,16 +1,13 @@
 /* Chat dialog */
 .vfrc-chat--dialog {
-    background-color: #120547; /* Deep blue */
-    color: #FFFFFF; /* White text for better contrast */
+    background-color: #120547; 
+    color: #FFFFFF;
 }
 
 /* System response messages */
 .vfrc-system-response {
-    background-color: #E8751A; /* Vibrant orange */
-    color: #FFFFFF; /* White text for readability */
-    border-radius: 8px; /* Slightly rounded corners for a modern look */
-    padding: 10px; /* Adding padding for spacing */
-    margin: 6px 0; /* Spacing between messages */
+    background-color: #E8751A; 
+    color: #FFFFFF; 
 }
 
 
