@@ -1,46 +1,16 @@
 /* Chat dialog */
 .vfrc-chat--dialog {
     background-color: #1C0D57; /* Deep blue */
+    color: #FFFFFF; /* White text for better contrast */
 }
 
 /* System response messages */
-.vfrc-system-response .vfrc-message {
-    background-color: #2A3377; /* Slightly lighter blue */
-    color: #ED9209; /* Orange text */
-    border-radius: 8px;
-    padding: 8px;
-    margin: 4px 0;
+.vfrc-system-response {
+    background-color: #E8751A; /* Vibrant orange */
+    color: #FFFFFF; /* White text for readability */
+    border-radius: 8px; /* Slightly rounded corners for a modern look */
+    padding: 10px; /* Adding padding for spacing */
+    margin: 6px 0; /* Spacing between messages */
 }
 
-/* User response messages */
-.vfrc-user-response {
-    background-color: #ED9209; /* Orange background */
-    color: #2A3377; /* Slightly lighter blue text */
-    border-radius: 8px;
-    padding: 8px;
-    margin: 4px 0;
-}
-
-/* Footer */
-.vf-footer {
-    background-color: #1C0D57; /* Deep blue */
-    color: #FFFFFF; /* White text for any content */
-}
-
-/* Input field */
-.vfrc-input {
-    background-color: #2A3377; /* Slightly lighter blue */
-    color: #FFFFFF; /* White text */
-    border: 1px solid #ED9209; /* Orange border for contrast */
-    border-radius: 4px;
-    padding: 8px;
-}
-
-/* Chat input button */
-.vfrc-chat-input--button {
-    background-color: #ED9209; /* Orange */
-    color: #FFFFFF; /* White text */
-    border-radius: 4px;
-    padding: 8px;
-}
 
