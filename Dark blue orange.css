@@ -15,7 +15,7 @@
 
 /* CHAT WIDGET HEADER */
 .vfrc-header {
-    background-color: #0a1c8f; /* Deep blue header */
+    background-color: #000000; /* Black header */
     padding: 15px;
     border-radius: 10px 10px 0 0;
     color: #f4a300; /* Orange text */
@@ -30,7 +30,7 @@
 .vfrc-assistant-info--title {
     font-weight: bold;
     font-size: 18px;
-    color: #f4a300; /* Orange text */
+    color: #000000; /* Black text */
 }
 
 .vfrc-assistant-info--description {
@@ -75,7 +75,7 @@
 
 /* ASSISTANT RESPONSES */
 .vfrc-system-response {
-    background-color: #2e2e2e; /* Dark grey for assistant responses */
+    background-color: #0a1c8f; /* Dark blue for assistant responses */
     color: #f4a300; /* Orange text */
     padding: 12px;
     border-radius: 8px;
@@ -97,4 +97,4 @@
 
 /* User responses */
 .vfrc-user-response {
-    background-color: #1f1f1f; /* Dark background
+    background-color: #0a1c8f; /* Dark background
