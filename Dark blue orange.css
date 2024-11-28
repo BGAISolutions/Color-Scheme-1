@@ -58,27 +58,10 @@
     color: #f4a300; /* Orange status text */
 }
 
-/* Assistant messages */
-.vfrc-message {
-    background-color: #000000; /* Black background for assistant messages */
-    color: #f4a300; /* Orange text for readability */
-    border-radius: 10px;
-    padding: 10px;
-    margin: 8px 0;
-}
-
 /* Timestamps for assistant messages */
 .vfrc-timestamp {
     font-size: 12px;
     color: #f4a300; /* Orange timestamp */
-}
-
-/* ASSISTANT RESPONSES */
-.vfrc-system-response {
-    background-color: #2e2e2e; /* Dark grey for assistant responses */
-    color: #f4a300; /* Orange text */
-    padding: 12px;
-    border-radius: 8px;
 }
 
 .vfrc-system-response--indicator {
@@ -93,15 +76,6 @@
 .vfrc-system-response--list {
     margin-top: 10px;
     color: #f4a300; /* Orange text */
-}
-
-/* User responses */
-.vfrc-user-response {
-    background-color: #1f1f1f; /* Dark background for user responses */
-    color: #f4a300; /* Orange text */
-    padding: 12px;
-    border-radius: 8px;
-    margin: 8px 0;
 }
 
 /* FOOTER */
