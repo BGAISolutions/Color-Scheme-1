@@ -1,112 +1,22 @@
-/* Override default styles for a dark theme with blue and orange accents */
-
-/* PAGE CONTENTS */
-.voiceflow-chat {
-    background-color: #1F2A44; /* Dark blue background for the entire page */
-    color: #ffffff; /* White text for contrast */
-}
-
-/* .voiceflow-chat .vfrc-launcher {} */
-.vfrc-launcher {
-    background-color: #2F3D58; /* Slightly lighter blue for the launcher */
-    border-radius: 8px;
-    color: #ffffff; /* White text for better readability */
-}
-
-/* CHAT WIDGET HEADER */
-.vfrc-header {
-    background-color: #0a1c8f; /* Deep blue header */
-    padding: 15px;
-    border-radius: 10px 10px 0 0;
-    color: #fff;
-    font-size: 16px;
-    text-align: center;
-}
-
-.vfrc-assistant-info {
-    margin-top: 10px;
-}
-
-.vfrc-assistant-info--title {
-    font-weight: bold;
-    font-size: 18px;
-}
-
-.vfrc-assistant-info--description {
-    font-size: 14px;
-    color: #bbb; /* Light grey text */
-}
-
 /* CHAT MESSAGE BODY */
 .vfrc-chat--dialog {
-    background-color: #0a1c8f; /* Dark blue background for the chat dialog */
+    background-color: #00041f; /* Dark blue for chat dialog */
 }
 
-.vfrc-chat--spacer {
-    height: 15px; /* Adding space between messages */
+/* ASSISTANT INFO TITLE */
+.vfrc-assistant-info--title {
+    color: #000000; /* Black text for assistant info title */
 }
 
-.vfrc-chat--session-time {
-    font-size: 12px;
-    color: #bbb; /* Light grey for timestamp */
+/* SYSTEM RESPONSE MESSAGES */
+.vfrc-system-response {
+    background-color: #000000; /* Black background for system responses */
+    color: #b58500; /* Golden text for system responses */
 }
 
-.vfrc-chat--status {
-    font-size: 14px;
-    color: #f4a300; /* Orange status text */
-}
-
-/* Assistant messages */
-.vfrc-message {
-    background-color: #000000; /* Black background for assistant messages */
-    color: #ffffff; /* White text for readability */
-    border-radius: 10px;
-    padding: 10px;
-    margin: 8px 0;
-}
-
-/* Timestamps for assistant messages */
-.vfrc-timestamp {
-    font-size: 12px;
-    color: #bbb; /* Light grey for timestamp */
-}
-
-/* User responses */
+/* USER RESPONSE MESSAGES */
 .vfrc-user-response {
-    background-color: #1f1f1f; /* Dark background for user responses */
-    color: #fff;
-    padding: 12px;
-    border-radius: 8px;
-    margin: 8px 0;
+    background-color: #000000; /* Black background for user messages */
+    color: #1e7a0a; /* Green text for user responses */
 }
 
-/* FOOTER */
-.vf-footer {
-    background-color: #0a1c8f; /* Dark blue footer */
-    color: #fff;
-    text-align: center;
-    padding: 10px;
-    border-radius: 0 0 10px 10px;
-}
-
-.vfrc-input {
-    background-color: #2F3D58; /* Lighter blue input field */
-    border: 1px solid #f4a300; /* Orange border for input */
-    color: #fff;
-    padding: 10px;
-    border-radius: 10px;
-    margin: 10px 0;
-}
-
-.vfrc-chat-input--button {
-    background-color: #f4a300; /* Bright orange button */
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-.vfrc-footer--watermark {
-    color: #bbb; /* Light grey watermark */
-}
