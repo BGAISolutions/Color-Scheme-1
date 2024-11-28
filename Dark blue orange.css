@@ -3,14 +3,14 @@
 /* PAGE CONTENTS */
 .voiceflow-chat {
     background-color: #1F2A44; /* Dark blue background for the entire page */
-    color: #ffffff; /* White text for contrast */
+    color: #f4a300; /* Orange text */
 }
 
 /* .voiceflow-chat .vfrc-launcher {} */
 .vfrc-launcher {
     background-color: #2F3D58; /* Slightly lighter blue for the launcher */
     border-radius: 8px;
-    color: #ffffff; /* White text for better readability */
+    color: #f4a300; /* Orange text for better readability */
 }
 
 /* CHAT WIDGET HEADER */
@@ -18,7 +18,7 @@
     background-color: #0a1c8f; /* Deep blue header */
     padding: 15px;
     border-radius: 10px 10px 0 0;
-    color: #fff;
+    color: #f4a300; /* Orange text */
     font-size: 16px;
     text-align: center;
 }
@@ -30,16 +30,18 @@
 .vfrc-assistant-info--title {
     font-weight: bold;
     font-size: 18px;
+    color: #f4a300; /* Orange text */
 }
 
 .vfrc-assistant-info--description {
     font-size: 14px;
-    color: #bbb; /* Light grey text */
+    color: #f4a300; /* Orange text */
 }
 
 /* CHAT MESSAGE BODY */
 .vfrc-chat--dialog {
     background-color: #0a1c8f; /* Dark blue background for the chat dialog */
+    color: #f4a300; /* Orange text */
 }
 
 .vfrc-chat--spacer {
@@ -48,7 +50,7 @@
 
 .vfrc-chat--session-time {
     font-size: 12px;
-    color: #bbb; /* Light grey for timestamp */
+    color: #f4a300; /* Orange for timestamp */
 }
 
 .vfrc-chat--status {
@@ -59,7 +61,7 @@
 /* Assistant messages */
 .vfrc-message {
     background-color: #000000; /* Black background for assistant messages */
-    color: #ffffff; /* White text for readability */
+    color: #f4a300; /* Orange text for readability */
     border-radius: 10px;
     padding: 10px;
     margin: 8px 0;
@@ -68,13 +70,13 @@
 /* Timestamps for assistant messages */
 .vfrc-timestamp {
     font-size: 12px;
-    color: #bbb; /* Light grey for timestamp */
+    color: #f4a300; /* Orange timestamp */
 }
 
 /* ASSISTANT RESPONSES */
 .vfrc-system-response {
     background-color: #2e2e2e; /* Dark grey for assistant responses */
-    color: #fff;
+    color: #f4a300; /* Orange text */
     padding: 12px;
     border-radius: 8px;
 }
@@ -85,48 +87,14 @@
 
 .vfrc-system-response--actions {
     margin-top: 10px;
+    color: #f4a300; /* Orange text */
 }
 
 .vfrc-system-response--list {
     margin-top: 10px;
+    color: #f4a300; /* Orange text */
 }
 
 /* User responses */
 .vfrc-user-response {
-    background-color: #1f1f1f; /* Dark background for user responses */
-    color: #fff;
-    padding: 12px;
-    border-radius: 8px;
-    margin: 8px 0;
-}
-
-/* FOOTER */
-.vf-footer {
-    background-color: #0a1c8f; /* Dark blue footer */
-    color: #fff;
-    text-align: center;
-    padding: 10px;
-    border-radius: 0 0 10px 10px;
-}
-
-.vfrc-input {
-    background-color: #2F3D58; /* Lighter blue input field */
-    border: 1px solid #f4a300; /* Orange border for input */
-    color: #fff;
-    padding: 10px;
-    border-radius: 10px;
-    margin: 10px 0;
-}
-
-.vfrc-chat-input--button {
-    background-color: #f4a300; /* Bright orange button */
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-.vfrc-footer--watermark {
-    color: #bbb; /* Light grey watermark */
-}
+    background-color: #1f1f1f; /* Dark background
