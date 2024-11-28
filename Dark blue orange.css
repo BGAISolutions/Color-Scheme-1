@@ -71,26 +71,6 @@
     color: #bbb; /* Light grey for timestamp */
 }
 
-/* ASSISTANT RESPONSES */
-.vfrc-system-response {
-    background-color: #2e2e2e; /* Dark grey for assistant responses */
-    color: #fff;
-    padding: 12px;
-    border-radius: 8px;
-}
-
-.vfrc-system-response--indicator {
-    color: #f4a300; /* Orange indicator */
-}
-
-.vfrc-system-response--actions {
-    margin-top: 10px;
-}
-
-.vfrc-system-response--list {
-    margin-top: 10px;
-}
-
 /* User responses */
 .vfrc-user-response {
     background-color: #1f1f1f; /* Dark background for user responses */
