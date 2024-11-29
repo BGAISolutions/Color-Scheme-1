@@ -24,7 +24,7 @@
 }
 
 .vfrc-assistant-info--title {
-    color: #ffcb6b; /* Warm gold */
+    color: #d6deeb; /* Soft white */
     font-weight: bold;
 }
 
@@ -59,7 +59,7 @@
 }
 
 .vfrc-system-response--indicator {
-    color: #ffcb6b; /* Warm gold */
+    color: #011627; /* Deep blue */
 }
 
 /* USER RESPONSES */
