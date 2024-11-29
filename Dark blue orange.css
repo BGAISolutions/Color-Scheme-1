@@ -1,104 +1,96 @@
-/* Override default styles for a dark theme with blue and orange accents */
+/* NIGHT OWL THEME */
 
 /* PAGE CONTENTS */
 .voiceflow-chat {
-    background-color: #1F2A44; /* Dark blue background for the entire page */
-    color: #f4a300; /* Orange text */
+    background-color: #011627; /* Deep blue-black background */
+    color: #d6deeb; /* Soft white text */
 }
 
-/* .voiceflow-chat .vfrc-launcher {} */
+/* LAUNCHER */
 .vfrc-launcher {
-    background-color: #2F3D58; /* Slightly lighter blue for the launcher */
-    border-radius: 8px;
-    color: #f4a300; /* Orange text for better readability */
+    background-color: #1d3b53; /* Midnight blue */
+    border-radius: 10px;
+    color: #d6deeb; /* Soft white text */
 }
 
 /* CHAT WIDGET HEADER */
 .vfrc-header {
-    background-color: #0a1c8f; /* Deep blue header */
+    background-color: #002e3b; /* Dark cyan */
+    color: #82aaff; /* Soft blue text */
     padding: 15px;
     border-radius: 10px 10px 0 0;
-    color: #f4a300; /* Orange text */
     font-size: 16px;
     text-align: center;
 }
 
-.vfrc-assistant-info {
-    margin-top: 10px;
-}
-
 .vfrc-assistant-info--title {
+    color: #ffcb6b; /* Warm gold */
     font-weight: bold;
-    font-size: 18px;
-    color: #f4a300; /* Orange text */
 }
 
 .vfrc-assistant-info--description {
-    font-size: 14px;
-    color: #f4a300; /* Orange text */
+    color: #a6accd; /* Muted lavender */
 }
 
 /* CHAT MESSAGE BODY */
 .vfrc-chat--dialog {
-    background-color: #0a1c8f; /* Dark blue background for the chat dialog */
-    color: #f4a300; /* Orange text */
+    background-color: #011627; /* Deep blue-black */
 }
 
-.vfrc-chat--spacer {
-    height: 15px; /* Adding space between messages */
+.vfrc-message {
+    background-color: #1d3b53; /* Midnight blue */
+    color: #d6deeb; /* Soft white text */
+    border-radius: 10px;
+    padding: 10px;
+    margin: 8px 0;
 }
 
-.vfrc-chat--session-time {
-    font-size: 12px;
-    color: #f4a300; /* Orange for timestamp */
-}
-
-.vfrc-chat--status {
-    font-size: 14px;
-    color: #f4a300; /* Orange status text */
-}
-
-/* Timestamps for assistant messages */
 .vfrc-timestamp {
+    color: #5c677d; /* Muted gray */
     font-size: 12px;
-    color: #f4a300; /* Orange timestamp */
+}
+
+/* ASSISTANT RESPONSES */
+.vfrc-system-response {
+    background-color: #002e3b; /* Dark cyan */
+    color: #82aaff; /* Soft blue */
+    border-radius: 8px;
+    padding: 12px;
 }
 
 .vfrc-system-response--indicator {
-    color: #f4a300; /* Orange indicator */
+    color: #ffcb6b; /* Warm gold */
 }
 
-.vfrc-system-response--actions {
-    margin-top: 10px;
-    color: #f4a300; /* Orange text */
-}
-
-.vfrc-system-response--list {
-    margin-top: 10px;
-    color: #f4a300; /* Orange text */
+/* USER RESPONSES */
+.vfrc-user-response {
+    background-color: #011627; /* Deep blue-black */
+    color: #addb67; /* Soft green text */
+    border-radius: 10px;
+    padding: 12px;
+    margin: 8px 0;
 }
 
 /* FOOTER */
 .vf-footer {
-    background-color: #0a1c8f; /* Dark blue footer */
-    color: #f4a300; /* Orange text */
+    background-color: #1d3b53; /* Midnight blue */
+    color: #d6deeb; /* Soft white text */
     text-align: center;
     padding: 10px;
     border-radius: 0 0 10px 10px;
 }
 
 .vfrc-input {
-    background-color: #2F3D58; /* Lighter blue input field */
-    border: 1px solid #f4a300; /* Orange border for input */
-    color: #f4a300; /* Orange text */
+    background-color: #1d3b53; /* Midnight blue */
+    color: #d6deeb; /* Soft white text */
+    border: 1px solid #82aaff; /* Soft blue border */
     padding: 10px;
     border-radius: 10px;
-    margin: 10px 0;
 }
 
 .vfrc-chat-input--button {
-    background-color: #f4a300; /* Bright orange button */
-    color: #000000; /* Black text */
+    background-color: #ffcb6b; /* Warm gold */
+    color: #011627; /* Deep blue-black */
     border: none;
     padding: 10px 20px;
     border-radius: 5px;
@@ -106,5 +98,5 @@
 }
 
 .vfrc-footer--watermark {
-    color: #f4a300; /* Orange watermark */
+    color: #5c677d; /* Muted gray */
 }
