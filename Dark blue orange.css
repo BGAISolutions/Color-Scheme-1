@@ -1,4 +1,4 @@
-/* NIGHT OWL THEME */
+/* NIGHT OWL THEME: Unified Message Style */
 
 /* PAGE CONTENTS */
 .voiceflow-chat {
@@ -24,7 +24,7 @@
 }
 
 .vfrc-assistant-info--title {
-    color: #d6deeb; /* Soft white */
+    color: #ffcb6b; /* Warm gold */
     font-weight: bold;
 }
 
@@ -37,38 +37,20 @@
     background-color: #011627; /* Deep blue-black */
 }
 
-.vfrc-message {
-    background-color: #1d3b53; /* Midnight blue */
-    color: #d6deeb; /* Soft white text */
-    border-radius: 10px;
-    padding: 10px;
-    margin: 8px 0;
-}
-
-.vfrc-timestamp {
-    color: #5c677d; /* Muted gray */
-    font-size: 12px;
-}
-
-/* ASSISTANT RESPONSES */
-.vfrc-system-response {
-    background-color: #002e3b; /* Dark cyan */
-    color: #82aaff; /* Soft blue */
-    border-radius: 8px;
-    padding: 12px;
-}
-
-.vfrc-system-response--indicator {
-    color: #011627; /* Deep blue */
-}
-
-/* USER RESPONSES */
+.vfrc-message,
+.vfrc-system-response,
 .vfrc-user-response {
     background-color: #011627; /* Deep blue-black */
     color: #addb67; /* Soft green text */
     border-radius: 10px;
     padding: 12px;
     margin: 8px 0;
+}
+
+/* Unified timestamp style */
+.vfrc-timestamp {
+    color: #5c677d; /* Muted gray */
+    font-size: 12px;
 }
 
 /* FOOTER */
@@ -89,7 +71,7 @@
 }
 
 .vfrc-chat-input--button {
-    background-color: #011627; /* Deep blue */
+    background-color: #ffcb6b; /* Warm gold */
     color: #011627; /* Deep blue-black */
     border: none;
     padding: 10px 20px;
