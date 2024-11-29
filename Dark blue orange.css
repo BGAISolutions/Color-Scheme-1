@@ -1,84 +1,88 @@
-/* NIGHT OWL THEME: Unified Message Style */
+/* Chat widget styles inspired by Night Owl theme */
 
 /* PAGE CONTENTS */
 .voiceflow-chat {
-    background-color: #011627; /* Deep blue-black background */
-    color: #d6deeb; /* Soft white text */
+    background-color: #011627; /* Deep navy background */
+    color: #ffffff; /* White text */
 }
 
-/* LAUNCHER */
+/* CHAT LAUNCHER */
 .vfrc-launcher {
-    background-color: #1d3b53; /* Midnight blue */
-    border-radius: 10px;
-    color: #d6deeb; /* Soft white text */
+    background-color: #0b3a53; /* Dark blue launcher */
+    color: #ffffff;
+    border-radius: 50%;
+    transition: background-color 0.3s ease;
 }
 
-/* CHAT WIDGET HEADER */
+.vfrc-launcher:hover {
+    background-color: #0366d6; /* Accent blue on hover */
+}
+
+/* HEADER */
 .vfrc-header {
-    background-color: #002e3b; /* Dark cyan */
-    color: #82aaff; /* Soft blue text */
+    background-color: #011627; /* Deep navy header */
+    color: #ffffff;
+    border-bottom: 2px solid #0366d6; /* Accent border */
     padding: 15px;
-    border-radius: 10px 10px 0 0;
-    font-size: 16px;
     text-align: center;
 }
 
 .vfrc-assistant-info--title {
-    color: #ffcb6b; /* Warm gold */
+    font-size: 18px;
     font-weight: bold;
+    color: #ffffff;
 }
 
 .vfrc-assistant-info--description {
-    color: #a6accd; /* Muted lavender */
+    font-size: 14px;
+    color: #d6deeb; /* Muted light blue */
 }
 
 /* CHAT MESSAGE BODY */
 .vfrc-chat--dialog {
-    background-color: #011627; /* Deep blue-black */
+    background-color: #011627; /* Deep navy for chat background */
 }
 
-.vfrc-message,
-.vfrc-system-response,
-.vfrc-user-response {
-    background-color: #011627; /* Deep blue-black */
-    color: #addb67; /* Soft green text */
+.vfrc-message {
+    background-color: #011221; /* Slightly lighter navy for assistant messages */
+    color: #d6deeb; /* Light text */
     border-radius: 10px;
-    padding: 12px;
+    padding: 10px;
     margin: 8px 0;
 }
 
-/* Unified timestamp style */
-.vfrc-timestamp {
-    color: #5c677d; /* Muted gray */
-    font-size: 12px;
+.vfrc-user-response {
+    background-color: #011221; /* Same background for user messages */
+    color: #7fdbca; /* Light green text */
+    border-radius: 10px;
+    padding: 10px;
+    margin: 8px 0;
 }
 
-/* FOOTER */
+/* FOOTER (Input area) */
 .vf-footer {
-    background-color: #1d3b53; /* Midnight blue */
-    color: #d6deeb; /* Soft white text */
-    text-align: center;
-    padding: 10px;
-    border-radius: 0 0 10px 10px;
+    background-color: #011627; /* Footer matches page background */
+    padding: 15px;
 }
 
 .vfrc-input {
-    background-color: #1d3b53; /* Midnight blue */
-    color: #d6deeb; /* Soft white text */
-    border: 1px solid #82aaff; /* Soft blue border */
-    padding: 10px;
+    background-color: #0b3a53; /* Dark input field */
+    color: #ffffff;
+    border: 1px solid #0366d6; /* Accent border */
     border-radius: 10px;
+    padding: 10px;
 }
 
 .vfrc-chat-input--button {
-    background-color: #ffcb6b; /* Warm gold */
-    color: #011627; /* Deep blue-black */
+    background-color: #0366d6; /* Accent button */
+    color: #ffffff;
     border: none;
     padding: 10px 20px;
     border-radius: 5px;
     cursor: pointer;
+    transition: background-color 0.3s ease;
 }
 
-.vfrc-footer--watermark {
-    color: #5c677d; /* Muted gray */
+.vfrc-chat-input--button:hover {
+    background-color: #005cc5; /* Darker blue on hover */
 }
