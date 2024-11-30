@@ -61,14 +61,14 @@
 }
 .vfrc-input {
     background-color: #0b0c10; /* Dark blue-black input field */
-    color: #ffffff;
+    color: #011221;
     border: 1px solid #0366d6;
     border-radius: 10px;
     padding: 10px;
 }
 .vfrc-chat-input--button {
     background-color: #0366d6; /* Accent button */
-    color: #ffffff;
+    color: #0b4b80;
     border: none;
     padding: 10px 20px;
     border-radius: 5px;
