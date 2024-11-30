@@ -3,7 +3,7 @@
 /* PAGE CONTENTS */
 .voiceflow-chat {
     background-color: #011627; /* Deep navy background */
-    color: #ffffff; /* White text */
+    color: #ffffff;
 }
 
 /* CHAT LAUNCHER */
@@ -13,26 +13,23 @@
     border-radius: 50%;
     transition: background-color 0.3s ease;
 }
-
 .vfrc-launcher:hover {
     background-color: #0366d6; /* Accent blue on hover */
 }
 
 /* HEADER */
 .vfrc-header {
-    background-color: #011627; /* Deep navy header */
+    background-color: #011627;
     color: #ffffff;
-    border-bottom: 2px solid #0366d6; /* Accent border */
+    border-bottom: 2px solid #0366d6;
     padding: 15px;
     text-align: center;
 }
-
 .vfrc-assistant-info--title {
     font-size: 18px;
     font-weight: bold;
     color: #ffffff;
 }
-
 .vfrc-assistant-info--description {
     font-size: 14px;
     color: #d6deeb; /* Muted light blue */
@@ -40,9 +37,8 @@
 
 /* CHAT MESSAGE BODY */
 .vfrc-chat--dialog {
-    background-color: #0b0c10; /* Deep blue-black for chat dialog */
+    background-color: #0b0c10; /* Dark blue-black for chat dialog */
 }
-
 .vfrc-message {
     background-color: #011221; /* Slightly lighter navy for assistant messages */
     color: #d6deeb; /* Light text */
@@ -50,7 +46,6 @@
     padding: 10px;
     margin: 8px 0;
 }
-
 .vfrc-user-response {
     background-color: #011221; /* Same background for user messages */
     color: #7fdbca; /* Light green text */
@@ -61,18 +56,16 @@
 
 /* FOOTER (Input area) */
 .vf-footer {
-    background-color: #011627; /* Footer matches page background */
+    background-color: #011627;
     padding: 15px;
 }
-
 .vfrc-input {
-    background-color: #0b3a53; /* Dark input field */
+    background-color: #0b0c10; /* Dark blue-black input field */
     color: #ffffff;
-    border: 1px solid #0366d6; /* Accent border */
+    border: 1px solid #0366d6;
     border-radius: 10px;
     padding: 10px;
 }
-
 .vfrc-chat-input--button {
     background-color: #0366d6; /* Accent button */
     color: #ffffff;
@@ -82,7 +75,6 @@
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
-
 .vfrc-chat-input--button:hover {
     background-color: #005cc5; /* Darker blue on hover */
 }
